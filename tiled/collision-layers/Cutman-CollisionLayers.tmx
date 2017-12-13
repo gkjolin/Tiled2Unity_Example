@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="16" height="15" tilewidth="16" tileheight="16" nextobjectid="44">
+ <properties>
+  <property name="SomeOtherProp" type="int" value="5"/>
+  <property name="SomeProp" value="SomeVal"/>
+ </properties>
+ <tileset firstgid="1" source="tiles-cutman.tsx"/>
+ <imagelayer name="Image Layer 1" offsetx="158" offsety="175">
+  <image source="D:/Greedy Guns/out/Texture2D/area1_palm_leaf.png" width="324" height="235"/>
+ </imagelayer>
+ <layer name="Ground" width="16" height="15">
+  <data encoding="csv">
+52,60,52,60,52,60,52,60,9,9,9,9,9,9,9,9,
+60,52,60,52,60,52,52,52,9,9,9,9,9,9,9,9,
+52,60,52,60,52,60,37,37,9,9,9,9,9,9,9,9,
+60,52,60,52,60,52,29,45,9,9,9,9,9,1,1,9,
+52,60,52,60,52,60,43,53,9,9,9,9,9,43,43,9,
+60,52,60,52,60,52,60,53,9,9,9,9,9,9,9,9,
+52,60,52,60,37,37,9,53,9,9,9,9,9,9,9,9,
+60,52,60,52,29,45,9,53,9,9,9,9,9,9,9,9,
+52,60,37,37,23,23,9,53,9,9,9,9,9,9,9,9,
+60,52,29,45,53,43,43,43,43,9,9,9,9,43,43,9,
+52,60,45,45,53,45,9,9,9,9,9,9,9,9,9,9,
+60,52,45,29,53,45,9,9,9,9,9,9,9,9,9,9,
+52,60,45,45,53,45,9,9,9,9,9,9,9,9,9,9,
+60,52,52,43,43,43,43,43,1,1,1,1,1,1,1,1,
+52,60,52,60,52,60,52,60,43,43,43,43,43,43,43,43
+</data>
+ </layer>
+ <objectgroup color="#aaffff" name="ObjectLayer" offsetx="28" offsety="0">
+  <object id="20" x="81" y="56">
+   <polygon points="0,0 91,0 31,170"/>
+  </object>
+  <object id="21" x="21" y="35">
+   <polyline points="0,0 32,58 33,97 -4,104 3,67 -4,43 -4,25 -3,1 -2,-3"/>
+  </object>
+  <object id="29" gid="46" x="102" y="36" width="16" height="16"/>
+  <object id="30" gid="46" x="115" y="33" width="16" height="16"/>
+  <object id="31" gid="46" x="136" y="36" width="16" height="16"/>
+  <object id="32" gid="46" x="134" y="54" width="16" height="16"/>
+  <object id="33" gid="46" x="96" y="39" width="16" height="16"/>
+  <object id="34" gid="46" x="81" y="40" width="16" height="16"/>
+  <object id="35" gid="46" x="76" y="42" width="16" height="16"/>
+  <object id="36" gid="46" x="63" y="47" width="16" height="16"/>
+  <object id="37" gid="46" x="93" y="53" width="16" height="16"/>
+  <object id="38" gid="46" x="115" y="57" width="16" height="16"/>
+  <object id="39" gid="46" x="121" y="43" width="16" height="16"/>
+  <object id="40" gid="46" x="185" y="118" width="16" height="16"/>
+  <object id="41" gid="46" x="180" y="95" width="16" height="16"/>
+  <object id="42" gid="46" x="186" y="60" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" name="ExtraColliders" visible="0">
+  <object id="5" type="Default" x="256" y="0" width="28" height="240"/>
+ </objectgroup>
+</map>
